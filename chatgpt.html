@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Responsive Web Page</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+		}
+		nav {
+			background-color: #555;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		section {
+			padding: 10px;
+			text-align: center;
+		}
+		article {
+			background-color: #ddd;
+			padding: 10px;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		
+		/* Media Queries */
+		@media screen and (min-width: 600px) {
+			header {
+				padding: 20px;
+			}
+			nav {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+			article {
+				margin: 10px;
+				flex-basis: calc(33.33% - 20px);
+			}
+		}
+		
+		@media screen and (min-width: 900px) {
+			section {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+			article {
+				margin: 10px;
+				flex-basis: calc(25% - 20px);
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Responsive Web Page</h1>
+	</header>
+	
+	<nav>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Contact</a>
+	</nav>
+	
+	<section>
+		<article>
+			<h2>Article 1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis consectetur ipsum, vel lobortis enim interdum vel. Ut bibendum facilisis sem eget euismod.</p>
+		</article>
+		<article>
+			<h2>Article 2</h2>
+			<p>Proin non tellus non mauris vestibulum eleifend. Integer malesuada, magna vitae ultrices sagittis, purus lectus vehicula leo, non pellentesque eros velit at velit.</p>
+		</article>
+		<article>
+			<h2>Article 3</h2>
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc finibus erat velit, at interdum nulla tempus a.</p>
+		</article>
+		<article>
+			<h2>Article 4</h2>
+			<p>Maecenas maximus erat eu lorem tristique imperdiet. Curabitur lobortis elit non neque facilisis, vel placerat n</p>
+    </article>
+ 	<article>
+		<h2>Article 5</h2>
+		<p>Fusce luctus nunc a nisi tristique, quis venenatis lorem bibendum. Sed venenatis lorem et commodo imperdiet. Proin eget sapien sagittis, blandit odio a, euismod sapien.</p>
+	</article>
+	<article>
+		<h2>Article 6</h2>
+		<p>Nulla in commodo metus. Sed non lacus vel ante volutpat blandit. Sed maximus nibh velit, eu tristique nulla pretium sed.</p>
+	</article>
+	<article>
+		<h2>Article 7</h2>
+		<p>Suspendisse potenti. Fusce vel eros eu leo suscipit pellentesque vel nec nibh. Suspendisse potenti.</p>
+	</article>
+	<article>
+		<h2>Article 8</h2>
+		<p>Phasellus scelerisque tellus at libero luctus bibendum. Fusce molestie congue enim ac sagittis. Praesent ullamcorper lorem in ex aliquam euismod.</p>
+	</article>
+</section>
+
+<footer>
+	<p>&copy; 2023 - Responsive Web Page</p>
+</footer>
+
+</body>
+</html>
