@@ -1,0 +1,36 @@
+
+
+table {
+  width: 40%;
+  border: 1px solid #444444;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #444444;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+}
+
+p {
+  font-family: 'Alkatra', cursive;
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Gugi', cursive;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 120%;
+}
+
+.title {
+  font-family: 'Alkatra', cursive;
+  font-family: 'Gugi', cursive;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 180%;
+}
+
+#Big_title {
+  font-size: 250%;
+}
