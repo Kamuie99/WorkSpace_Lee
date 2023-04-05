@@ -1,0 +1,41 @@
+.title {
+  font-family: 'Alkatra', cursive;
+  font-family: 'Gugi', cursive;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: var(--font-size-title);
+  background-color: var(--color-main);
+  color: white;
+}
+
+.explain {
+  padding: 20px;
+  font-family: 'Alkatra', cursive;
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Gugi', cursive;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 140%;
+}
+
+.red {
+  color: var(--color-emph);
+}
+
+.example_code {
+  font-size: var(--font-size-smaller);
+}
+
+table {
+  width: 50%;
+  border: 1px solid #444444;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #444444;
+  padding: 10px;
+  text-align: center;
+}
+
+#table img {
+  width: 50%;
+}

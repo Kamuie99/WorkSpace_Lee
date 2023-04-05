@@ -1,0 +1,56 @@
+@import url('styles/1-intro.css');
+@import url('styles/2-header.css');
+@import url('styles/3-main.css');
+
+/* ===== 변수 구간 ===== */
+
+:root {
+  --color-main: skyblue;
+  --color-sub: #00A200;
+  --color-dark: #2F4858;
+  --color-emph: #f10f0f;
+  --color-text: #281812;
+  --color-lighter: #DC9C86;
+  --color-light-bd: #FFE6D6;
+  --color-light-bg: #FFF5ED;
+
+  --font-size-title: 35px;
+  --font-size-subtitle: 22px;
+  --font-size-tag: 26px;
+  --font-size-larger: 20px;
+  --font-size-text: 20px;
+  --font-size-smaller: 16px;
+
+  --height-toolbar: 52px;
+}
+
+/* ===== 리셋 구간 ===== */
+
+strong, em {
+  font-weight: inherit;
+  font-style: normal;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+dl { margin: 0; }
+
+dd { 
+  margin: 0;
+  display: inline;
+}
+
+figure { margin: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+th { font-weight: normal; }
+
+address { font-style: inherit;}
