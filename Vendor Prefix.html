@@ -13,7 +13,7 @@
   <section class="intro">
     <div class="intro__dark">
       <div class="intro__type">
-        <div>벤더 프리픽스(Vendor Prefix)에 대하여<span class="underscore">&nbsp;_</span></div>
+        <div>About Vendor Prefix<span class="underscore">&nbsp;_</span></div>
       </div>
     </div>
     <div class="intro__tilt"></div>
@@ -43,52 +43,54 @@
       </ul>
     </nav>
   </header>
-
-
   <!-- 벤더 프리픽스에 대한 설명 부분 -->
-  <h4 class="title">&nbsp;&nbsp;벤더 프리픽스(Vendor Prefix)</h4>
-  <div id="about_Vendor" class="explain">
-      <p>세계적으로 가장 많이 사용되는 웹 브라우저에는 익스플로러,&nbsp;크롬, 파이어폭스, 사파리, 오페라 등이&nbsp;있습니다.</p>
+  <section id="about_Vendor">
+    <h4 class="title">&nbsp;&nbsp;벤더 프리픽스(Vendor Prefix)</h4>
+    <div class="explain">
+        <p>세계적으로 가장 많이 사용되는 웹 브라우저에는 익스플로러,&nbsp;크롬, 파이어폭스, 사파리, 오페라 등이&nbsp;있습니다.</p>
+  
+        <p><a class="red">벤더 프리픽스(vendor prefix)</a>란 이러한 주요 웹 브라우저 공급자가 새로운 실험적인 기능을 제공할 때 이전 버전의 웹 브라우저에&nbsp;그 사실을 알려주기 위해 사용하는&nbsp;<a class="red">접두사(prefix)</a>를 의미합니다.</p>
+        
+        <p>즉&nbsp;아직 <a class="blue">CSS 권고안에 포함되지 못한&nbsp;기능</a>이나,&nbsp;CSS 권고안에는 포함되어 있지만&nbsp;<a class="blue">아직 완벽하게 제정된 상태가 아닌 기능</a>을 사용하고자 할 때 벤더 프리픽스를 사용하게 됩니다.</p>
+        
+        <p>그렇게 하면 해당 기능이 포함되어 있지 않은 이전 버전의 웹 브라우저에서도 그&nbsp;기능을 사용할 수 있게 됩니다.</p>
+        
+        <p><img alt="vendor prefix" src="images/browsers.png" style="width: 200px; height: 200px;" /></p>
+    </div>
+  </section>
 
-      <p><a class="red">벤더 프리픽스(vendor prefix)</a>란 이러한 주요 웹 브라우저 공급자가 새로운 실험적인 기능을 제공할 때 이전 버전의 웹 브라우저에&nbsp;그 사실을 알려주기 위해 사용하는&nbsp;<a class="red">접두사(prefix)</a>를 의미합니다.</p>
-      
-      <p>즉&nbsp;아직 CSS 권고안에 포함되지 못한&nbsp;기능이나,&nbsp;CSS 권고안에는 포함되어 있지만&nbsp;아직 완벽하게 제정된 상태가 아닌 기능을 사용하고자 할 때 벤더 프리픽스를 사용하게 됩니다.</p>
-      
-      <p>그렇게 하면 해당 기능이 포함되어 있지 않은 이전 버전의 웹 브라우저에서도 그&nbsp;기능을 사용할 수 있게 됩니다.</p>
-      
-      <p><img alt="vendor prefix" src="images/browsers.png" style="width: 200px; height: 200px;" /></p>
-  </div>
 
-
-  <!-- 주요 웹 브라우저의 벤더 프리픽스--> 
-  <h4 class="title">&nbsp;&nbsp;주요 웹 브라우저의 벤더 프리픽스(vendor prefix)</h4> 
-  <div id="browsers_Vendor"class="explain">
-    <table id="table">
-      <tbody>
-        <tr>
-          <th><img alt="ie" class="icon" src="images/icon-ie.png" /></th>
-          <th><img alt="chrome" class="icon" src="images/icon-chrome.png" /></th>
-          <th><img alt="firefox" class="icon" src="images/icon-firefox.png" /></th>
-          <th><img alt="safari" class="icon" src="images/icon-safari.png" /></th>
-          <th><img alt="opera" class="icon" src="images/icon-opera.png" /></th>
-        </tr>
-        <tr>
-          <td>-ms-</td>
-          <td>-webkit-</td>
-          <td>-moz-</td>
-          <td>-webkit-</td>
-          <td>-o-</td>
-        </tr>
-      </tbody>
-    </table>
-    <p>주요 웹 브라우저가 사용하고 있는&nbsp;벤더&nbsp;프리픽스는 다음과 같습니다.</p>
-  </div>
-
+  <!-- 주요 웹 브라우저의 벤더 프리픽스-->
+  <section id="browsers_Vendor">
+    <h4 class="title">&nbsp;&nbsp;주요 웹 브라우저의 벤더 프리픽스(vendor prefix)</h4> 
+    <div class="explain">
+      <table id="table">
+        <tbody>
+          <tr>
+            <th><img alt="ie" class="icon" src="images/icon-ie.png" /></th>
+            <th><img alt="chrome" class="icon" src="images/icon-chrome.png" /></th>
+            <th><img alt="firefox" class="icon" src="images/icon-firefox.png" /></th>
+            <th><img alt="safari" class="icon" src="images/icon-safari.png" /></th>
+            <th><img alt="opera" class="icon" src="images/icon-opera.png" /></th>
+          </tr>
+          <tr>
+            <td>-ms-</td>
+            <td><a class="blue">-webkit-</a></td>
+            <td>-moz-</td>
+            <td><a class="blue">-webkit-</a></td>
+            <td>-o-</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>주요 웹 브라우저가 사용하고 있는&nbsp;벤더&nbsp;프리픽스는 다음과 같습니다.</p>
+    </div>
+  </section>
 
 
   <!-- 예제 코드 부분 -->
-  <h5 class="title">&nbsp;&nbsp;벤더 프리픽스 예제 코드</h5>
-  <div id="example_Vendor"class="explain">
+  <section id="example_Vendor">
+    <h4 class="title">&nbsp;&nbsp;벤더 프리픽스 예제 코드</h4>
+    <div id="example_Vendor"class="explain">
       <div class="example_code">
         <p class="textarea">&lt;<span style="color:#bf4f24">style</span>&gt;</p>
   
@@ -110,21 +112,19 @@
     
         <p class="textarea">&lt;/<span style="color:#bf4f24">style</span>&gt;</p>
       </div>
+      <p>&nbsp;</p>
+      
+      <p>위의 예제에서 가장 먼저 나오는 background 속성은 gradient 속성을 지원하지 않는 모든 브라우저를 위한 것입니다.</p>
+      
+      <p>또한, 맨 마지막에 나오는 background 속성은 CSS 표준 문법으로 작성된 코드입니다.</p>
+  
+      <p>CSS 표준 문법 코드는&nbsp;벤더&nbsp;프리픽스(vendor prefix)로 작성된 코드가 모두 나오고 난 후에&nbsp;나와야만, 벤더 프리픽스가 포함된 코드가&nbsp;정상적으로 동작할 수 있습니다.</p>
+  
+      <p>이러한 벤더 프리픽스는 실험적인 해당 기능들이 CSS 표준 권고안에 포함되거나, 완벽하게 제정된 상태가 되면 더는 사용할 필요가 없어집니다.</p>
 
-  
-    <p>&nbsp;</p>
-  
-    <p>위의 예제에서 가장 먼저 나오는 background 속성은 gradient 속성을 지원하지 않는 모든 브라우저를 위한 것입니다.</p>
-  
-    <p>또한, 맨 마지막에 나오는 background 속성은 CSS 표준 문법으로 작성된 코드입니다.</p>
-  
-    <p>CSS 표준 문법 코드는&nbsp;벤더&nbsp;프리픽스(vendor prefix)로 작성된 코드가 모두 나오고 난 후에&nbsp;나와야만, 벤더 프리픽스가 포함된 코드가&nbsp;정상적으로 동작할 수 있습니다.</p>
-  
-    <p>이러한 벤더 프리픽스는 실험적인 해당 기능들이 CSS 표준 권고안에 포함되거나, 완벽하게 제정된 상태가 되면 더는 사용할 필요가 없어집니다.</p>
+      <p>&nbsp;</p>
 
-    <p>&nbsp;</p>
-
-  </div>
-    
+    </div>
+  </section>
 </body>
 </html>

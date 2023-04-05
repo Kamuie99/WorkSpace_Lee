@@ -10,7 +10,7 @@
   height: var(--height-toolbar);
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color-main);
+  background-color: var(--color-sub);
 
   color: white;
 }

@@ -2,19 +2,25 @@
 @import url('styles/2-header.css');
 @import url('styles/3-main.css');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+
 /* ===== 변수 구간 ===== */
 
 :root {
   --color-main: skyblue;
-  --color-sub: #00A200;
+  --color-sub: #86c7f8;
   --color-dark: #2F4858;
   --color-emph: #f10f0f;
   --color-text: #281812;
   --color-lighter: #DC9C86;
   --color-light-bd: #FFE6D6;
   --color-light-bg: #FFF5ED;
+  --color-blue: #0423ed;
 
-  --font-size-title: 35px;
+  --font-code: 'Nanum Gothic Coding', monospace;;
+
+  --font-size-title: 23px;
   --font-size-subtitle: 22px;
   --font-size-tag: 26px;
   --font-size-larger: 20px;
@@ -54,3 +60,8 @@ a {
 th { font-weight: normal; }
 
 address { font-style: inherit;}
+
+h4, h5 {
+  margin: 0;
+  padding: 0;
+}
