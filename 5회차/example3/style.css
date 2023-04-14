@@ -1,0 +1,46 @@
+.container {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: #ddd;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100px;
+  width: 500px;
+}
+
+header,
+aside,
+main,
+footer {
+  display: flex;
+  flex-basis: 100px;
+  flex-wrap: wrap;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+header,
+footer {
+  flex-basis: 500px;
+  background-color: black;
+  color: white;
+  
+}
+
+aside,
+main {
+  background-color: white;
+  flex-direction: row;
+}
+
+header, .left {
+  order: -1;
+}
+
+.div_1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

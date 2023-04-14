@@ -1,0 +1,26 @@
+.container {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: #ddd;
+}
+
+header,
+aside,
+main,
+footer {
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+header,
+footer {
+  background-color: black;
+  color: white;
+}
+
+aside,
+main {
+  background-color: white;
+}

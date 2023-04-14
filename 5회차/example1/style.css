@@ -1,0 +1,24 @@
+.container {
+  padding: 15px;
+  border: 3px solid black;
+}
+
+.item {
+  padding: 10px;
+}
+
+.item1 {
+  background-color: #555;
+}
+.item2 {
+  background-color: #777;
+}
+.item3 {
+  background-color: #888;
+}
+.item4 {
+  background-color: #aaa;
+}
+.item5 {
+  background-color: #ddd;
+}
