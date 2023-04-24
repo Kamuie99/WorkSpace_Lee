@@ -1,0 +1,41 @@
+/* lion1 */
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.lions img:first-child{
+  animation: rotate 3s linear infinite;
+}
+
+/* lion2 */
+
+@keyframes rotateY {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+
+.lions img:nth-of-type(2) {
+  animation: rotateY 3s linear infinite;
+}
+
+/* lion3 */
+
+@keyframes fadeInOut {
+  50% {
+    opacity: 0;
+  }
+}
+
+.lions img:last-child {
+  animation: fadeInOut 5s linear infinite;
+}

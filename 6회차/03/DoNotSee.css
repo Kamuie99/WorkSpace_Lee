@@ -1,0 +1,40 @@
+.userImage a:hover {
+  color: black;
+}
+
+.userImage .animalImg {
+  transition: all 0.5s ease;
+}
+.userImage .animalImg:hover {
+  width: 150px;
+  height: 150px;
+  cursor: none;
+}
+.userImage .animalImg:active {
+  animation: rotate_indexY 3s linear infinite;
+}
+@keyframes rotate_indexY {
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.userInfo input {
+  transition: all 0.5s ease;
+}
+.userInfo input[type="text"]:hover,
+.userInfo input[type="password"]:hover {
+  background-color: rgb(123, 142, 123);
+  color: rgb(226, 226, 226);
+}
+
+.btns input {
+  transition: all 0.5s ease;
+}
+.btns input:hover {
+  width: 150px;
+  background-color: rgb(136, 158, 136);
+  color: black;
+  border-radius: 20px;
+  cursor: pointer;
+}

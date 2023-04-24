@@ -1,0 +1,38 @@
+/* mondai1 */
+
+.mondai1 a {
+  color: blue;
+}
+.mondai1 a:visited {
+  color: aqua;
+}
+.mondai1 a:hover {
+  color: red;
+}
+
+/* mondai2 */
+
+.mondai2 .hover {
+  transition: all 0.5s;
+}
+.mondai2 .hover:hover {
+  width: 300px;
+  background-color: red;
+  border-radius: 20%;
+}
+
+/* mondai3 */
+
+/* mondai4 */
+.ps p:last-child span {
+  color: yellow;
+}
+.ps p:nth-of-type(2) span {
+  color: green;
+}
+.ps p:first-child span {
+  color: blue;
+}
+.ps p:nth-last-of-type(2) span {
+  color: red;
+}

@@ -1,0 +1,41 @@
+.lion1 {
+  animation: rotate_image 5s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+.lion2 {
+  animation: rotate_indexY 5s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+.lion3 {
+  animation: opacity 5s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes rotate_indexY {
+  from {
+    transform: rotateY(-90deg);
+  }
+  to {
+    transform: rotateY(270deg);
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,54 @@
+/* mondai1 */
+.mondai1 a:hover {
+  color: green;
+  cursor: pointer;
+}
+.mondai1 a:visited {
+  color: rgb(208, 138, 149);
+}
+.mondai1 a:active {
+  color: yellow;
+}
+
+/* mondai2 */
+.mondai2 .hover {
+  transition: all 0.7s ease;
+}
+.mondai2 .hover:hover {
+  background-color: rgb(159, 117, 130);
+  width: 300px;
+  border-radius: 50px;
+}
+
+/* mondai3 */
+.mondai3 p {
+  width: 300px;
+  line-height: 50px;
+  text-align: center;
+  transition: all 0.5s ease;
+  color: rgb(235, 235, 235);
+}
+.mondai .tooltip {
+  width: 300px;
+  height: 30px;
+}
+.tooltip:hover p {
+  display: block;
+  height: 50px;
+  background-color: rgb(227, 187, 194);
+  color: rgb(73, 73, 73);
+}
+
+/* mondai4 */
+.mondai4 p:first-child span {
+  color: rgb(52, 52, 143);
+}
+.mondai4 p:nth-child(2) span {
+  color: rgb(64, 129, 64);
+}
+.mondai4 p:nth-last-child(2) span {
+  color: rgb(166, 94, 94);
+}
+.mondai4 p:last-child span {
+  color: rgb(176, 176, 111);
+}

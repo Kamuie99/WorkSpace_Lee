@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>가상 선택자 연습하기</title>
+    <link rel="stylesheet" href="./pseudoSelector.css" />
+    <link rel="stylesheet" href="./pseudoSelector2.css" />
+  </head>
+  <body>
+    <h2>Pseudo Selector Exercise</h2>
+    <div class="wrapper">
+      <!-- 1번문제
+        링크를 클릭했을 때 색, 페이지 방문 후 색, 커서를 댔을 때 색 변경(색상은 마음대로)
+      -->
+      <div class="mondai1">
+        <span>1번.</span>
+        <a href="#">Link to anywhere</a>
+      </div>
+
+      <!-- 2번문제
+        div박스에 마우스를 대면
+          1) width가 300px로 변경
+          2) border-radius가 변경
+          3) 배경색이 변경
+          4) 1~3의 모든 것이 0.5초의 시간동안 이루어지기
+        되도록 css 수정하기
+      -->
+      <div class="mondai2">
+        <span>2번.</span>
+        <div class="hover"></div>
+      </div>
+
+      <!-- 3번문제 : 잘못 만듦 풀지마세요
+        div.tooltip 아래에는 숨겨진 맨트가 있습니다!
+        이것이 나타나도록 css를 수정해보세요!
+      -->
+      <div class="mondai3">
+        <span>3번.</span>
+        <div class="tooltip">
+          이 박스 위에 마우스를 올리면 내용이 나타나도록
+          <p>안녕하세요? 제가 보이시나요?</p>
+        </div>
+      </div>
+
+      <!-- 4번문제
+        각 p의 span을 last, nth-of, first, nth-of-last를 한번씩 모두 사용하여,
+        각각의 색상으로 나타나게끔 수정하기
+      -->
+      <div class="mondai4">
+        <span>4번.</span>
+        <div class="ps">
+          <p>This is <span>blue</span></p>
+          <p>This is <span>green</span></p>
+          <p>This is <span>red</span></p>
+          <p>This is <span>yellow</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

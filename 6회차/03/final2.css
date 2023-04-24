@@ -1,0 +1,43 @@
+/* 사자 이미지 css */
+
+.userImage img {
+  transition: all 0.7s ease;
+}
+
+.userImage img:hover {
+  width: 150px;
+  height: 150px;
+}
+
+.userImage img:active {
+  animation: rotateY 3s linear infinite;
+}
+
+@keyframes rotateY {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+
+/* link css */
+
+a:hover {
+  color: aqua;
+}
+
+/* input css */
+
+.userInfo input {
+  transition: all 0.7s ease;
+}
+
+.userInfo input:hover {
+  transform: scale(1.2);
+  background-color: #425D4A;
+  color: #DDDDDD;
+}
+
+/* signup & delete btn css */
