@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/0_reset.css">
+  <link rel="stylesheet" href="styles/1_header.css">
+  <link rel="stylesheet" href="styles/2_container.css">
+  <title>네이버 : 회원가입</title>
+</head>
+<body>
+  <div id="wrap">
+    <!-- header -->
+    <div id="header" class="join_membership" role="banner">
+      <a href="http://www.naver.com" class="h_logo">
+        <span class="blind">NAVER</span>
+      </a>
+    </div>
+    <!-- // header -->
+    <form id="join_form" method="post" action="/user2/V2Join?m=end">
+      <input type="hidden" id="token_sjoin" name="token_sjoin" value="rq5bLU2tQY3dhe0">
+      <input type="hidden" id="encPswd" name="encPswd" value>
+      <input type="hidden" id="encKey" name="encKey" value>
+      <input type="hidden" id="birthday" name="birthday" value>
+      <input type="hidden" id="joinMode" name="joinMode" value="unreal">
+      <input type="hidden" id="pbirthday" name="pbirthday" value>
+      <input type="hidden" id="ipinFlag" name="ipinFlag" value>
+      <input type="hidden" id="nid_kb2" name="nid_kb2" value>
+      <!-- container -->
+      <div id="container" role="main">
+        <div id="content">
+          <!-- tg-text=title -->
+          <h2 class="blind">네이버 회원가입</h2>
+          <div class="join_content">
+            <!-- 아이디, 비밀번호 입력 -->
+            <div class="row_group">
+              <div class="join_row">
+                <h3 class="join_title">
+                  <label for="id">아이디</label>
+                </h3>
+                <span class="ps_box int_id">
+                  <input type="text" id="id" name="id" class="int" title="ID" maxlength="20">
+                  <span class="step_url">@naver.com</span>
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

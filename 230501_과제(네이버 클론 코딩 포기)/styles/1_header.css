@@ -1,0 +1,39 @@
+
+.green {
+  color: #08a600!important
+}
+
+#wrap {
+  width: 100%
+}
+
+#container,#footer,#header {
+  margin: 0 auto;
+  max-width: 768px;
+  min-width: 460px
+}
+
+#header {
+  position: relative;
+  overflow: hidden;
+  padding: 60px 0 54px;
+  box-sizing: border-box;
+  padding-top: 59px;
+}
+
+#header.join_membership {
+  padding-bottom: 20px
+}
+
+#header .h_logo {
+  display: block;
+  margin: 0 auto;
+  width: 240px;
+  height: 44px;
+  background-image: url(https://static.nid.naver.com/images/ui/join/m_naver_logo_20191126.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 240px auto;
+  color: transparent;
+  font-size: 0
+}
