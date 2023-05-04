@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  position: sticky;
+
+  z-index: 2;
+
+  top: 0;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+
+  color: #a3a8b4;
+}
+
+.header__nav-item {
+  font-size: 18px;
+  display: inline-block;
+  position: relative;
+  margin-left: 30px;
+}
+
+.header__nav-item strong {
+  color: white;
+  font-weight: bolder;
+}
+
+.header__logo {
+  height: 60px;
+  width: 60px;
+  vertical-align: middle;
+  margin-left: 10em;
+  margin-right: 70px;
+}
+
+
+.header__button {
+  width: 100px;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 15px;
+  margin-right: 5em;
+}
+
+.button_effect {
+  width: 0px;
+  height: 100%;
+
+  background-color: dodgerblue;
+
+  position: absolute;
+  left: 0;
+
+  transition: all 0.5s linear;
+}
+
+a:hover div{
+  width: 100%;
+}
+
+a:hover {
+  font-weight: bolder;
+  color: white;
+}
+
+a span {
+  transform: translateZ(100px);
+}

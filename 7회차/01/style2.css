@@ -1,0 +1,34 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100px;
+  width: 500px;
+
+  background-color: #1f2937;
+  color: rgba(255, 255, 255, 0.642);
+
+  font-size: 15px;
+
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+
+}
+
+aside span strong {
+  color: red;
+}
+
+aside span.title {
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+aside div {
+  display: flex;
+  justify-content: space-between;
+}

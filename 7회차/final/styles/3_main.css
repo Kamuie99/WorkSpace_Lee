@@ -1,0 +1,175 @@
+body {
+  background-color: #111826;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 800px 100px;
+  grid-template-columns: 2fr 8fr 2fr;
+
+  background-color: #111826;
+}
+
+.grid__item {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  padding: 50px;
+  color: #a3a8b4;
+}
+
+.grid__item:nth-child(1) {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.grid__item:nth-child(2) {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.grid__item:nth-child(3) {
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.grid__item:nth-child(4) {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.container footer {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  bottom: 0;
+  height: 80px;
+
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f2937;
+
+  color: #a3a8b4;
+}
+
+.container footer img {
+  height: 80px;
+  width: 80px;
+}
+
+.container h4 {
+  color: white;
+  font-size: 20px;
+}
+
+.footer__item {
+  display: inline-block;
+}
+
+.item_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  height: 100px;
+
+  margin-left: 90px;
+}
+
+.item_1 input {
+  width: 80px;
+  background-color: #1f2937;
+}
+
+#item_1 .heading {
+  font-size: 18px;
+  font-weight: bolder;
+
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.white {
+  color: white;
+}
+
+#item_2 article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100px;
+  width: 650px;
+
+  background-color: #1f2937;
+  color: rgba(255, 255, 255, 0.642);
+
+  font-size: 15px;
+
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+#item_2 article:hover {
+  background-color: #a3a8b4;
+}
+
+#item_2 footer:hover {
+  color: blue;
+  background-color: #a3a8b4;
+}
+
+#item_3 article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100px;
+  width: 162px;
+
+  background-color: #1f2937;
+  color: rgba(255, 255, 255, 0.642);
+
+  font-size: 15px;
+
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+a {
+  width: 200px;
+  height: 50px;
+
+  border: 1px solid grey;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a div {
+  width: 0px;
+  height: 100%;
+
+  background-color: dodgerblue;
+
+  position: absolute;
+
+  transition: all 0.5s linear;
+}
+
+a:hover div{
+  width: 100%;
+}
+
+a button {
+  transform: translateZ(100px);
+}

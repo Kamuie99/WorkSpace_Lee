@@ -1,0 +1,58 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  height: 200px;
+  width: 100%;
+
+  background-color: #1f2937;
+  color: rgba(255, 255, 255, 0.642);
+
+  font-size: 20px;
+
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+
+}
+
+.title__main {
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+
+  animation-duration: 3s;
+  animation-name: fadeInDown;
+}
+
+.title__sub {
+  opacity: 0;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-name: fadeInDown, fadeIn;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,23 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 240px;
+
+  /* 이건 아님 */
+  background-color: paleturquoise;
+}
+
+aside span {
+  margin-left: 10px;
+
+}
+
+aside span.heading {
+  font-size: 18px;
+  font-weight: bolder;
+
+  margin-top: 20px;
+  margin-left: 0;
+}

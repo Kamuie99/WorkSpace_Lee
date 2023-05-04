@@ -27,7 +27,7 @@
           <label for="id">아이디</label>
         </h3>
         <span class="box int_id">
-          <input type="text" id="id" class="int" maxlength="20">
+          <input type="text" id="id" class="int" maxlength="20" required>
           <span class="step_url">@naver.com</span>
         </span>
         <span class="error_next_box"></span>
@@ -146,9 +146,10 @@
 
       <!-- JOIN BTN-->
       <div class="btn_area">
-        <button type="button" id="btnJoin">
-            <span>가입하기</span>
-        </button>
+        <a class="join_button" id="btnJoin">
+          <div class="background_effect"></div>
+          <span>가입하기</span>
+        </a>
       </div>
 
     </div>

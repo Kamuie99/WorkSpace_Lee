@@ -1,0 +1,59 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+
+  height: 100px;
+  width: 500px;
+
+  background-color: #1f2937;
+  color: rgba(255, 255, 255, 0.642);
+
+  font-size: 15px;
+
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+
+}
+
+.title {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+
+  animation-duration: 3s;
+  animation-name: fadeInDown;
+}
+
+.semi-title {
+  opacity: 0;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-name: fadeInDown, fadeIn;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
