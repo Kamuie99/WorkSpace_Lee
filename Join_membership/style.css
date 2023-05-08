@@ -229,11 +229,11 @@ a div {
   width: 0px;
   height: 100%;
 
-  background-color: green;
+  background-color: rgb(24, 161, 24);
 
   position: absolute;
 
-  transition: all 0.3s linear;
+  transition: all 0.5s linear;
 }
 
 a:hover div{
