@@ -130,7 +130,9 @@ html, body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  position: relative;
+  position: fixed;
+  top: 300px;
+  left: 700px;
 
   float: right;
   width: 50%;

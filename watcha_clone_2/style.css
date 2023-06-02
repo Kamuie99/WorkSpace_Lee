@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner_img img{
+  width: 100%;
+}
+
+.banner_img {
+  display: flex;
+  height: 60vh;
+}
+
+.movie_about {
+  display: flex;
+  flex-direction: row;
+
+  height: 50vh;
+
+  text-align: left;
+  align-items: center;
+}
+
+.movie_img {
+  margin-left: 15%;
+}
+
+.movie_img img {
+  width: 160px;
+  height: 233px;
+  margin-bottom: 40px;
+
+  border: 5px solid white;
+}
+
+.movie_text {
+  width: 55%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.movie_text .title {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+
+  background-color: aliceblue;
+  width: 100%;
+  height: 800px;
+}
+
+.movie_info {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  width: 40%;
+
+  margin-left: 15%;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  border-bottom: 0.001px solid rgb(188, 180, 180);
+  
+  background-color: white;
+}
+
+.first_info {
+  margin-top: 20px;
+  height: 40%;
+}
+
+.movie_info h4 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.second_info {
+  height: 70%;
+}
+
+.third_info {
+  height: 60%;
+}
+
+.cast_info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+}
+
+.basic_info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.info_text {
+  display: block;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.cast_pic {
+  display: flex;
+  flex-direction: row;
+}
+
+.cast_pic a {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cast_1 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.cast_2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.comment_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+
+}
+
+.comment_list {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 80%;
+
+  white-space: nowrap;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+}
+
+.comment_list::-webkit-scrollbar {
+  display: none;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  width: 400px;
+  margin-right: 15px;
+  height: 100%;
+  background-color: #F2F2F2;
+}
+
+.litte_text {
+  font-size: 1;
+}
